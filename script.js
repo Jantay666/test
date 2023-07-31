@@ -14,14 +14,14 @@ anime({
 })
 
 anime({
-    targets: 'header_left p',
+    targets: '.header_left p',
     opacity:1,
     duration:500,
     delay:200,
     easing:'linear'
 })
 anime({
-    targets:'header_btn',
+    targets:'.header_btn',
     translateY:[-window.innerHeight/2,0],
     duration:300,
     easing:'easeOutQuad'
